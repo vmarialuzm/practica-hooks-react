@@ -1,3 +1,4 @@
+import {ListaTareas} from "./components/ListaTareas"
 import { CallBackComponent } from "./components/CallBackComponent"
 import { CalculosPesados } from "./components/CalculosPesados"
 import { ContadorComponent } from "./components/ContadorComponent"
@@ -9,7 +10,7 @@ export const HooksApp = () => {
     <>
         <h1>Aplicación de Hooks</h1>
         <hr />
-        <CallBackComponent></CallBackComponent>
+        <ListaTareas></ListaTareas>
     </>
   )
 }
